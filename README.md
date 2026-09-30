@@ -16,6 +16,7 @@ python -m pytest -q
 | Tag | The repo after |
 |---|---|
 | `l0` | the start: one long shared `AGENTS.md` (19 sections, 1,315 words), no standards |
+| `l1` | lesson 1: a short `AGENTS.md` (142 words) with the rules every change must follow and a table of what to read, `CLAUDE.md` importing it, the rest moved to `standards/` and `docs/` |
 
 To do a lesson, check out the tag before it on a branch of your own (`git checkout -b my-l1 l0`), make the change, then compare: `git diff l1`.
 
