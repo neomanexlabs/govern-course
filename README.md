@@ -19,7 +19,7 @@ python -m pytest -q
 | `l1` | lesson 1: a short `AGENTS.md` (142 words) with the rules every change must follow and a table of what to read, `CLAUDE.md` importing it, the rest moved to `standards/` and `docs/` |
 | `l2` | lesson 2: a pull request template (`.github/pull_request_template.md`) whose "Standards followed" list is written before any code and then locked, and one rule in `AGENTS.md` (167 words) to start every change from it; the review checks each change against that list |
 
-To do a lesson, check out the tag before it on a branch of your own (`git checkout -b my-l1 l0`), make the change, then compare: `git diff l1`.
+To do a lesson, check out the tag before it on a branch of your own (`git checkout -b my-l1 l0`), make the change, then compare: `git diff l1 ':!README.md'` prints nothing when your change matches the lesson. The README is left out because its tag rows are added after each tag.
 
 ## What is in it
 
