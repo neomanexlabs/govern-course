@@ -8,6 +8,7 @@ Invoicing for small shops. Python 3.12, pytest. Run the tests: `python -m pytest
 - Money is `Decimal`, never `float`.
 - Never commit with a failing test.
 - Never commit secrets or customer data.
+- Before you change code, start the pull request description from `.github/pull_request_template.md` and fill in "Standards followed". The review checks the change against that list.
 
 ## Before you work on it, read
 
