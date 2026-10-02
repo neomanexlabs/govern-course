@@ -6,7 +6,7 @@ This file stays under 200 words. To add a line, retire one (`workflows/cap-and-r
 
 ## Every change
 
-- Bug fix: follow `workflows/bug-fix.md`, every step, in order.
+- Bug fix: file it as a `bug` in ConvOps project `acme-billing`; follow its workflow.
 - Money is `Decimal`, never `float`.
 - Never commit with a failing test.
 - Never commit secrets or customer data.
