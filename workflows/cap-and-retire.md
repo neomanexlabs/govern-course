@@ -7,3 +7,5 @@ Once a month, and whenever a file is at its cap. Every home for knowledge has a 
 3. **Wrong.** A rule that states something false about the code: fix it.
 4. **Never cited.** A rule no review cited: retire it, unless no change in that time touched what it guards. Say which.
 5. **Cap.** A file at its cap takes a new rule only after one is retired.
+6. **Record.** Write the count, each fix or retirement, and every "say which" in the message of the commit that makes the change (`git commit --allow-empty` when nothing changes).
+7. **Check.** Run `workflows/govern-check.md` on the repo.
