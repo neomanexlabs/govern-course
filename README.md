@@ -19,6 +19,7 @@ python -m pytest -q
 | `l1` | lesson 1: a short `AGENTS.md` (142 words) with the rules every change must follow and a table of what to read, `CLAUDE.md` importing it, the rest moved to `standards/` and `docs/` |
 | `l2` | lesson 2: a pull request template (`.github/pull_request_template.md`) whose "Standards followed" list is written before any code and then locked, and one rule in `AGENTS.md` (167 words) to start every change from it; the review checks each change against that list |
 | `l3` | lesson 3: `docs/invoicing.md` split out of `docs/product.md`, with the fact the code cannot show (labour is billed in quarter hours) and a Known issues section; the `AGENTS.md` read table (193 words) points invoice work to it, and one rule updates a doc in the same commit when a change makes it wrong or incomplete |
+| `l4` | lesson 4: a shared Claude Code hook. `.claude/settings.json` puts the test command in the allowlist and runs `.claude/hooks/require-test.py` before every shell command; the hook blocks a `git commit` that changes `billing/` with no change under `tests/` (exit 2, with a message that names `standards/testing.md`) and stays silent on everything else. Each developer trusts the folder once so the allowlist applies |
 
 To do a lesson, check out the tag before it on a branch of your own (`git checkout -b my-l1 l0`), make the change, then compare: `git diff l1 ':!README.md'` prints nothing when your change matches the lesson. The README is left out because its tag rows are added after each tag.
 
