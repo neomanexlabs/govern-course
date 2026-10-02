@@ -1,5 +1,7 @@
 # Errors and logging
 
+At most 15 rules. To add one, retire one (`workflows/cap-and-retire.md`).
+
 - Log at INFO for business events: invoice sent, payment recorded.
 - Log at WARNING for anything a shop owner might notice.
 - Log at ERROR only for things someone must fix.

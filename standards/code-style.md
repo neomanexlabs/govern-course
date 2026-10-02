@@ -1,5 +1,7 @@
 # Code style
 
+At most 15 rules. To add one, retire one (`workflows/cap-and-retire.md`).
+
 - Follow PEP 8.
 - Use type hints on public functions.
 - Prefer dataclasses for simple records.

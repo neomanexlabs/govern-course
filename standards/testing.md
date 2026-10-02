@@ -1,5 +1,7 @@
 # Testing
 
+At most 15 rules. To add one, retire one (`workflows/cap-and-retire.md`).
+
 - Tests use pytest.
 - One test file per module.
 - Use plain `assert`.

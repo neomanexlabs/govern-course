@@ -1,5 +1,7 @@
 # Security and customer data
 
+At most 15 rules. To add one, retire one (`workflows/cap-and-retire.md`).
+
 ## Security
 
 - Never commit secrets.

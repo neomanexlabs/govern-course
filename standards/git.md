@@ -1,5 +1,7 @@
 # Git and pull requests
 
+At most 15 rules. To add one, retire one (`workflows/cap-and-retire.md`).
+
 ## Git
 
 - Branch from `main`.
@@ -16,7 +18,6 @@
 - One change per pull request.
 - Write what changed and why in the description.
 - Add screenshots for anything visible in the web app.
-- Link the ticket.
 - Priya reviews money changes. Anyone can review the rest.
 - Do not merge your own pull request unless it is a typo fix.
 - If CI is red, do not merge.

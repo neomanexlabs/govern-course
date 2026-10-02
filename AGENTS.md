@@ -2,6 +2,8 @@
 
 Invoicing for small shops. Python 3.12, pytest. Run the tests: `python -m pytest -q`
 
+This file stays under 200 words. To add a line, retire one (`workflows/cap-and-retire.md`).
+
 ## Every change
 
 - Bug fix: follow `workflows/bug-fix.md`, every step, in order.
