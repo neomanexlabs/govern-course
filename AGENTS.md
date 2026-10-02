@@ -9,6 +9,7 @@ Invoicing for small shops. Python 3.12, pytest. Run the tests: `python -m pytest
 - Never commit with a failing test.
 - Never commit secrets or customer data.
 - Before you change code, start the pull request description from `.github/pull_request_template.md` and fill in "Standards followed". The review checks the change against that list.
+- Last step: if the change makes a doc in `docs/` wrong or incomplete, update it in the same commit.
 
 ## Before you work on it, read
 
@@ -21,5 +22,6 @@ Invoicing for small shops. Python 3.12, pytest. Run the tests: `python -m pytest
 | logs and errors | `standards/logging.md` |
 | security, customer data | `standards/security.md` |
 | speed | `standards/performance.md` |
-| invoices, customers, email, CSV, reports | `docs/product.md` |
+| invoices, lines, totals | `docs/invoicing.md` |
+| customers, email, CSV, reports | `docs/product.md` |
 | setup, deploys, past incidents, team notes | `docs/` |

@@ -4,16 +4,6 @@ Acme Billing sends invoices for small shops: bakeries, florists, repair shops, a
 
 The team is six developers: Priya (lead), Sam, Leo, Mina, Tom and Ana. Priya reviews anything that touches money. Leo owns deploys. Mina owns the email templates. Tom handles the CSV import. Ana joined in March and works on reports.
 
-## Invoices
-
-- An invoice has an id like `INV-2040`, a list of lines and a status.
-- A line has a description, a quantity and a unit price.
-- Statuses: draft, sent, paid, void.
-- A sent invoice is never edited. Void it and send a new one.
-- Invoice numbers never repeat, even after a void.
-- The PDF layout is in the web app, not in this repo.
-- Due date is 30 days after the send date unless the shop sets another term.
-
 ## Customers
 
 - Customer records hold a name, an email and an optional VAT number.
