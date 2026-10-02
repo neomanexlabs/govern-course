@@ -4,7 +4,7 @@ Invoicing for small shops. Python 3.12, pytest. Run the tests: `python -m pytest
 
 ## Every change
 
-- Bug fix: first write a test that shows the bug. Run it and see it fail. Then fix, then run the whole suite.
+- Bug fix: follow `workflows/bug-fix.md`, every step, in order.
 - Money is `Decimal`, never `float`.
 - Never commit with a failing test.
 - Never commit secrets or customer data.
